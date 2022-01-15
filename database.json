@@ -1,0 +1,94 @@
+[
+{
+	"envname" : "non-prod",
+	"envvalue" : 
+	[
+	{
+		"appname" : "App1",
+		"appvalue" : "APP1",
+		"servers"  :
+		[
+		{
+			"servername" : "Server1",
+			"servervalue" : "127.0.0.1",
+			"schemas" :
+			[
+			{
+				"schemaname" : "Schema1",
+				"schemavalue" : "DEV1",
+			},
+			{
+				"schemaname" : "Schema2",
+				"schemavalue" : "UAT1",
+			}
+			]
+		}
+		]
+	},
+	{
+		"appname" : "App2",
+		"appvalue" : "APP2",
+		"servers"  :
+		[
+		{
+			"servername" : "Server2",
+			"servervalue" : "127.0.0.1",
+			"schemas" :
+			[
+			{
+				"schemaname" : "Schema1",
+				"schemavalue" : "DEV2",
+			},
+			{
+				"schemaname" : "Schema2",
+				"schemavalue" : "UAT2",
+			}
+			]
+		}
+		]
+	}
+	]
+},
+{
+	"envname" : "prod",
+	"envvalue" : 
+	[
+	{
+		"appname" : "App1",
+		"appvalue" : "APP1",
+		"servers"  :
+		[
+		{
+			"servername" : "Server1",
+			"servervalue" : "127.0.0.1",
+			"schemas" :
+			[
+			{
+				"schemaname" : "Schema1",
+				"schemavalue" : "PROD",
+			}
+			]
+		}
+		]
+	},
+	{
+		"appname" : "App2",
+		"appvalue" : "APP2",
+		"servers"  :
+		[
+		{
+			"servername" : "Server2",
+			"servervalue" : "127.0.0.1",
+			"schemas" :
+			[
+			{
+				"schemaname" : "Schema1",
+				"schemavalue" : "PROD",
+			}
+			]
+		}
+		]
+	}
+	]
+}
+]
